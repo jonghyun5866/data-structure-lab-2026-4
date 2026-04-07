@@ -3,7 +3,7 @@
 
 #include "Car_Class.h"
 
-// 상속 (중요🔥)
+// 상속 (중요)
 class SportsCar : public Car {
 public:
     bool bTurbo;
@@ -18,7 +18,7 @@ public:
         bTurbo = bTur;
     }
 
-    // 오버라이딩 (핵심🔥)
+    // 오버라이딩 (핵심)
     void speedUp() override {
         if (bTurbo)
             speed += 20;
